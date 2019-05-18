@@ -8,12 +8,12 @@ import (
 	"strings"
 	"time"
 
-	fixtures "gopkg.in/src-d/go-git-fixtures.v3"
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/cache"
+	fixtures "github.com/nulab/go-git-fixtures"
+	"github.com/nulab/go-git/plumbing"
+	"github.com/nulab/go-git/plumbing/cache"
 
 	. "gopkg.in/check.v1"
-	"gopkg.in/src-d/go-git.v4/storage/filesystem"
+	"github.com/nulab/go-git/storage/filesystem"
 )
 
 type SuiteCommit struct {

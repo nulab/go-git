@@ -7,9 +7,9 @@ import (
 	"testing"
 
 	. "gopkg.in/check.v1"
-	fixtures "gopkg.in/src-d/go-git-fixtures.v3"
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/format/commitgraph"
+	fixtures "github.com/nulab/go-git-fixtures"
+	"github.com/nulab/go-git/plumbing"
+	"github.com/nulab/go-git/plumbing/format/commitgraph"
 )
 
 func Test(t *testing.T) { TestingT(t) }

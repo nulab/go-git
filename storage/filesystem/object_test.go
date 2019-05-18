@@ -8,12 +8,12 @@ import (
 	"path/filepath"
 	"testing"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/cache"
-	"gopkg.in/src-d/go-git.v4/storage/filesystem/dotgit"
+	"github.com/nulab/go-git/plumbing"
+	"github.com/nulab/go-git/plumbing/cache"
+	"github.com/nulab/go-git/storage/filesystem/dotgit"
 
 	. "gopkg.in/check.v1"
-	"gopkg.in/src-d/go-git-fixtures.v3"
+	"github.com/nulab/go-git-fixtures"
 )
 
 type FsSuite struct {

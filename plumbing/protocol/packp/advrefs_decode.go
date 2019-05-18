@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"io"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/format/pktline"
+	"github.com/nulab/go-git/plumbing"
+	"github.com/nulab/go-git/plumbing/format/pktline"
 )
 
 // Decode reads the next advertised-refs message form its input and

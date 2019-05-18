@@ -3,7 +3,7 @@ package packfile
 import (
 	"io"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
+	"github.com/nulab/go-git/plumbing"
 
 	. "gopkg.in/check.v1"
 )

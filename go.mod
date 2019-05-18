@@ -1,4 +1,4 @@
-module gopkg.in/src-d/go-git.v4
+module github.com/nulab/go-git
 
 require (
 	github.com/alcortesm/tgz v0.0.0-20161220082320-9c5fe88206d7 // indirect
@@ -13,6 +13,7 @@ require (
 	github.com/jessevdk/go-flags v1.4.0
 	github.com/kevinburke/ssh_config v0.0.0-20180830205328-81db2a75821e
 	github.com/mitchellh/go-homedir v1.1.0
+	github.com/nulab/go-git-fixtures v3.5.1-0.20190518041354-93de18438b0f+incompatible
 	github.com/pelletier/go-buffruneio v0.2.0 // indirect
 	github.com/pkg/errors v0.8.1 // indirect
 	github.com/sergi/go-diff v1.0.0
@@ -25,6 +26,5 @@ require (
 	golang.org/x/text v0.3.0
 	gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127
 	gopkg.in/src-d/go-billy.v4 v4.3.0
-	gopkg.in/src-d/go-git-fixtures.v3 v3.5.0
 	gopkg.in/warnings.v0 v0.1.2 // indirect
 )

@@ -10,10 +10,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/filemode"
-	"gopkg.in/src-d/go-git.v4/plumbing/storer"
-	"gopkg.in/src-d/go-git.v4/utils/ioutil"
+	"github.com/nulab/go-git/plumbing"
+	"github.com/nulab/go-git/plumbing/filemode"
+	"github.com/nulab/go-git/plumbing/storer"
+	"github.com/nulab/go-git/utils/ioutil"
 )
 
 const (

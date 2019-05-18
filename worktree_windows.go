@@ -7,7 +7,7 @@ import (
 	"syscall"
 	"time"
 
-	"gopkg.in/src-d/go-git.v4/plumbing/format/index"
+	"github.com/nulab/go-git/plumbing/format/index"
 )
 
 func init() {

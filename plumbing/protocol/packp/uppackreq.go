@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"io"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/format/pktline"
-	"gopkg.in/src-d/go-git.v4/plumbing/protocol/packp/capability"
+	"github.com/nulab/go-git/plumbing"
+	"github.com/nulab/go-git/plumbing/format/pktline"
+	"github.com/nulab/go-git/plumbing/protocol/packp/capability"
 )
 
 // UploadPackRequest represents a upload-pack request.

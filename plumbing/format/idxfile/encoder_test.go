@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"io/ioutil"
 
-	. "gopkg.in/src-d/go-git.v4/plumbing/format/idxfile"
+	. "github.com/nulab/go-git/plumbing/format/idxfile"
 
 	. "gopkg.in/check.v1"
-	"gopkg.in/src-d/go-git-fixtures.v3"
+	"github.com/nulab/go-git-fixtures"
 )
 
 func (s *IdxfileSuite) TestDecodeEncode(c *C) {

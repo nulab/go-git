@@ -3,11 +3,11 @@ package index
 import (
 	"testing"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/filemode"
+	"github.com/nulab/go-git/plumbing"
+	"github.com/nulab/go-git/plumbing/filemode"
 
 	. "gopkg.in/check.v1"
-	"gopkg.in/src-d/go-git-fixtures.v3"
+	"github.com/nulab/go-git-fixtures"
 )
 
 func Test(t *testing.T) { TestingT(t) }
